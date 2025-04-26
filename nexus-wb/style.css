@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #1c1c1c;
+    color: #fff;
+}
+
+header {
+    background: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #00ffae;
+    font-weight: bold;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.member {
+    background: #2b2b2b;
+    border-radius: 15px;
+    padding: 20px;
+    width: 200px;
+}
+
+.member img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.discord-button {
+    background: #7289DA;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+footer {
+    background: #111;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9em;
+}
